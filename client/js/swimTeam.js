@@ -25,7 +25,6 @@ const SwimTeam = {
         .css('left', `${SwimTeam.coords.left}px`);
     }
 
-    SwimTeam.direction = direction;
   },
 
   updateLoc: (direction) => {
@@ -52,7 +51,7 @@ const SwimTeam = {
         SwimTeam.coords.left += 5;
       }
       break;
-    } 
+    }
   }
 
 };
